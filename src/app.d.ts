@@ -2,7 +2,6 @@
 
 
 import temperature from './temperature.svelte';
-
 const app = new temperature({
     target: document.body,
     props: {
