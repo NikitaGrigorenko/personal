@@ -20,4 +20,8 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
+	:root {
+		background: url("/photos/background.jpg") center no-repeat;
+		background-size: cover;
+	}
 </style>

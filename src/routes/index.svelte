@@ -1,8 +1,7 @@
 <script context="module" lang="ts">
 	export const prerender = true;
-	import { base } from '$app/paths';
+	import { base } from "$app/paths";
 </script>
-
 
 <svelte:head>
 	<title>Home</title>
@@ -41,4 +40,5 @@
 		justify-content: space-around;
 		margin: 0 auto;
 	}
+
 </style>
