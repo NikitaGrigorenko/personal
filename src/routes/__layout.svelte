@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Header from "$lib/header/Header.svelte";
+	
 	import "../app.css";
 </script>
 
@@ -20,8 +21,8 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
+
 	:root {
-		background: url("/photos/background.jpg") center no-repeat;
-		background-size: cover;
+		background: linear-gradient(#c6e4ee 0%, #c6e4ee 40%, #fed1ae 60%, #faa0b9 70%, #cb7dcb 80%, #757ecb 100%);
 	}
 </style>
