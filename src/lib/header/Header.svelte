@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { page } from "$app/stores";
+	import { base } from '$app/paths'
+	import { page } from '$app/stores';
 </script>
 
 <header>
@@ -9,27 +10,27 @@
 				<nav>
 					<ul>
 						<li class:active={$page.url.pathname === "/"}>
-							<a class="n_link" sveltekit:prefetch href="/"
+							<a class="n_link" sveltekit:prefetch href="{base}/"
 								>Home</a
 							>
 						</li>
 						<li class:active={$page.url.pathname === "/about"}>
-							<a class="n_link" sveltekit:prefetch href="/about"
+							<a class="n_link" sveltekit:prefetch href="{base}/about"
 								>About</a
 							>
 						</li>
 						<li class:active={$page.url.pathname === "/achievements"}>
-							<a class="n_link" sveltekit:prefetch href="/achievements"
+							<a class="n_link" sveltekit:prefetch href="{base}/achievements"
 								>Achievements</a
 							>
 						</li>
 						<li class:active={$page.url.pathname === "/random"}>
-							<a class="n_link" sveltekit:prefetch href="/random"
+							<a class="n_link" sveltekit:prefetch href="{base}/random"
 								>RandomDog</a
 							>
 						</li>
 						<li class:active={$page.url.pathname === "/contacts"}>
-							<a class="n_link" sveltekit:prefetch href="/contacts"
+							<a class="n_link" sveltekit:prefetch href="{base}/contacts"
 								>Contacts</a
 							>
 						</li>
