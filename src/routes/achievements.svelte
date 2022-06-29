@@ -1,5 +1,6 @@
 <script context="module">
 	import { browser, dev } from "$app/env";
+	import { base } from '$app/paths';
 	export const hydrate = dev;
 	export const router = browser;
 	export const prerender = true;
@@ -24,7 +25,7 @@
 						target="_blank"
 					>
 						<img
-							src="photos/wro.jpg"
+							src="{base}/photos/wro.jpg"
 							alt=""
 							style="border-radius: 7%; box-shadow: 0px 0px 15px 10px rgb(241, 195, 183);"
 						/>
@@ -44,7 +45,7 @@
 						target="_blank"
 					>
 						<img
-							src="photos/urfu.jpg"
+							src="{base}/photos/urfu.jpg"
 							alt=""
 							style="border-radius: 7%; box-shadow: 0px 0px 15px 10px rgb(241, 195, 183);"
 						/>
@@ -64,7 +65,7 @@
 						target="_blank"
 					>
 						<img
-							src="photos/innoLogo.jpg"
+							src="{base}/photos/innoLogo.jpg"
 							alt=""
 							style="border-radius: 7%; box-shadow: 0px 0px 15px 10px rgb(241, 195, 183);"
 						/>

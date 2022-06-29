@@ -26,7 +26,7 @@
 			<div class="about__item">
 				<div class="about__img">
 					<img
-						src="photos/inno.jpg"
+						src="{base}/photos/inno.jpg"
 						alt=""
 						style="border-radius: 7%; box-shadow: 0px 0px 15px 10px rgb(241, 195, 183);"
 					/>
@@ -36,7 +36,7 @@
 			<div class="about__item">
 				<div class="about__img">
 					<img
-						src="photos/camera.jpg"
+						src="{base}/photos/camera.jpg"
 						alt=""
 						style="border-radius: 7%; box-shadow: 0px 0px 15px 10px rgb(241, 195, 183);"
 					/>
@@ -46,7 +46,7 @@
 			<div class="about__item">
 				<div class="about__img">
 					<img
-						src="photos/breakfast.jpg"
+						src="{base}/photos/breakfast.jpg"
 						alt=""
 						style="border-radius: 7%; box-shadow: 0px 0px 15px 10px rgb(241, 195, 183);"
 					/>

@@ -1,5 +1,6 @@
 <script context="module" lang="ts">
 	export const prerender = true;
+	import { base } from '$app/paths';
 </script>
 
 
@@ -11,7 +12,7 @@
 	<div class="container">
 		<div class="photo">
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<img src="/photos/myPhoto.jpg" style="border-radius: 45%;" />
+			<img src="{base}/photos/myPhoto.jpg" style="border-radius: 45%;" />
 		</div>
 	</div>
 </div>

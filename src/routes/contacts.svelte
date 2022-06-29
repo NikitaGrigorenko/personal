@@ -1,5 +1,6 @@
 <script context="module">
     import { browser, dev } from "$app/env";
+    import { base } from '$app/paths';
     export const hydrate = dev;
     export const router = browser;
     export const prerender = true;
@@ -23,7 +24,7 @@
                         href="https://www.instagram.com/n1kgrigorenko"
                         target="_blank"
                         ><img
-                            src="icons/instagram.png"
+                            src="{base}/icons/instagram.png"
                             alt=""
                             style="border-radius: 40%; box-shadow: 0px 0px 15px 10px rgb(241, 195, 183);"
                         /></a
@@ -38,7 +39,7 @@
                         href="https://vk.com/n_grigorenko"
                         target="_blank"
                         ><img
-                            src="icons/vk.png"
+                            src="{base}/icons/vk.png"
                             alt=""
                             style="border-radius: 40%; box-shadow: 0px 0px 15px 10px rgb(241, 195, 183);"
                         /></a
@@ -53,7 +54,7 @@
                         href="https://github.com/NikitaGrigorenko"
                         target="_blank"
                         ><img
-                            src="icons/github.png"
+                            src="{base}/icons/github.png"
                             alt=""
                             style="border-radius: 40%; box-shadow: 0px 0px 15px 10px rgb(241, 195, 183);"
                         /></a
@@ -68,7 +69,7 @@
                         href="https://t.me/n1kgrigorenko"
                         target="_blank"
                         ><img
-                            src="icons/tg.png"
+                            src="{base}/icons/tg.png"
                             alt=""
                             style="border-radius: 40%; box-shadow: 0px 0px 15px 10px rgb(241, 195, 183);"
                         /></a

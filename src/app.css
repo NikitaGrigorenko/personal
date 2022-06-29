@@ -1,5 +1,5 @@
 :root {
-	background: url(/photos/background.jpg) center no-repeat;
+	background: url({base}/photos/background.jpg) center no-repeat;
         background-size: cover;
 }
 
