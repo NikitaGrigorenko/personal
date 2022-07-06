@@ -1,27 +1,27 @@
-import adapter from '@sveltejs/adapter-static';
-import preprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-static'
+import preprocess from 'svelte-preprocess'
 
-const dev = process.env.NODE_ENV === 'development';
+const dev = process.env.NODE_ENV === 'development'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: preprocess(),
+  preprocess: preprocess(),
 
-	kit: {
-		adapter: adapter(),
+  kit: {
+    adapter: adapter(),
 
-		prerender: {
-			default: true,
-		},
+    prerender: {
+      default: true,
+    },
 
-		paths: {
-			base: dev ? '' : '/personal'
-		},
+    paths: {
+      base: dev ? '' : '/personal',
+    },
 
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
-		}
-	}
-};
+    methodOverride: {
+      allowed: ['PATCH', 'DELETE'],
+    },
+  },
+}
 
-export default config;
+export default config

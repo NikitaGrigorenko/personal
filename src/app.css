@@ -1,22 +1,22 @@
 body {
-	min-height: 100vh;
-	margin: 0;
+  min-height: 100vh;
+  margin: 0;
 }
 
-*, 
-*:after, 
-*:before{
-    box-sizing: border-box;
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
-::-webkit-scrollbar{
-    width: auto;
+::-webkit-scrollbar {
+  width: auto;
 }
 
-::-webkit-scrollbar-track{
-    background-color: #fff2da;
+::-webkit-scrollbar-track {
+  background-color: #fff2da;
 }
 
-::-webkit-scrollbar-thumb{
-    background: linear-gradient(180deg, rgb(225, 117, 135), rgb(240, 186, 124));
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgb(225, 117, 135), rgb(240, 186, 124));
 }
