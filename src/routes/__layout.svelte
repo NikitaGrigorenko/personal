@@ -5,6 +5,7 @@
 </script>
 
 <Header />
+<h1>Hello</h1>
 
 <main>
   <slot />

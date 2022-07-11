@@ -1,21 +1,15 @@
 <script lang="ts">
+  import fetch from "node-fetch";
   async function fetchDog() {
-    const res: Response = await fetch('https://random.dog/woof.json')
+    const res = await fetch('https://random.dog/woof.json')
     const json = await res.json()
     return json
   }
 
-  interface API {
-    img: string
-  }
-
-  let imageDog: string
+  let imageDog = ''
   fetchDog().then((dog) => {
     const imgDog = dog.url
-    let inter: API = {
-      img: imgDog,
-    }
-    imageDog = inter.img
+    imageDog = imgDog.img
   })
 </script>
 
