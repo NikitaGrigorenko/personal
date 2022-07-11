@@ -1,5 +1,5 @@
 <script lang="ts">
-  import fetch from "node-fetch";
+  import fetch from 'node-fetch'
   async function fetchDog() {
     const res = await fetch('https://random.dog/woof.json')
     const json = await res.json()
