@@ -18,10 +18,13 @@ jobs:
           node-version: '16'
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm ci --legacy-peer-deps
 
       - name: Lint
         run: npm run lint
+
+      - name: Test
+        run: npm run test
 
       - name: Build website
         run: npm run build
